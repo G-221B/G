@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>G-科技</title>
+	<link rel="stylesheet" type="text/css" href="button.css">
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="g2.png"/>
+</head>
+<body>
+	<div class="box"> <a href="#" name="top"></a>
+		<div class="topnav">
+			<ul>
+			<li class="topnav-content"><a href="#" id="u">首页</a>
+			</li>
+			<li class="topnav-content"><a href="#" id="u">最新科技</a>
+				<ul>
+					<li><a href="#">&nbsp;&nbsp;5G</a></li>
+					<li><a href="#">&nbsp;&nbsp;VR</a></li>
+					<li><a href="#">&nbsp;&nbsp;人工智能</a></li>
+				</ul>
+			</li>
+			<li class="topnav-content"><a href="#" id="u">科技力量</a>
+				<ul>
+					<li><a href="#">&nbsp;&nbsp;敬请期待</a></li>
+					<li><a href="#">&nbsp;&nbsp;敬请期待</a></li>
+				</ul>
+			</li>
+			<li class="topnav-content"><a href="#" id="u">科技资讯</a>
+				<ul>
+					<li><a href="#">&nbsp;&nbsp;敬请期待</a></li>
+					<li><a href="#">&nbsp;&nbsp;敬请期待</a></li>
+				</ul>
+			</li>
+			<li class="topnav-content"><a href="#" id="u">联系我</a>
+				<ul>
+					<li><a href="#">&nbsp;&nbsp;敬请期待</a></li>
+					<li><a href="#">&nbsp;&nbsp;敬请期待</a></li>
+				</ul>
+			</li>
+		</ul>
+		</div>
+		<div class="main-content">
+			<div class="main-detail">
+				<a href="#">
+				<div class="detail-1">
+					<img src="5G.png">
+				</div>
+				</a>
+				<a href="#">
+				<div class="detail-1">
+					<img src="ai.png">
+				</div>
+				</a>
+				<a href="#">
+				<div class="detail-1">
+					<img src="无人机.png">
+				</div>
+				</a>
+				<a href="#">
+				<div class="detail-1">
+					<img src="wait.png">
+				</div>
+				</a>
+			</div>
+			<button class="main-button"><a href="#sign">立即开启</a></button>		
+		</div>
+		<div class="sidenav">
+			<a href="#">
+			<div class="link">
+				<img src="微信.png">
+				<div class="link-content">
+			<img src="wa545464.jpg">
+		</div>
+			</div>
+			</a>
+			<a href="#" onclick="top()">
+			<div class="top">
+				<img src="top.png">
+			</div>
+			</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function top(){
+			window.scrollTo(0,0);
+		}
+	</script>
+
+	<div class="box-2" id="one"> <a name="sign">1</a>
+		<div class="box-2-content">
+			黑科技展示
+		</div>
+		<div class="container">
+			<a href="#sign" name="2" onclick="gang()"><div class="container-detail" id="two"><p id="three">5G</p></div></a>
+			<a href="#sign" name="3" onclick="gang1()"><div class="container-detail" id="two1"><p id="three1">人工智能</p></div></a>
+			<a href="#sign" name="4" onclick="gang2()"><div class="container-detail" id="two2"><p id="three2">无人机</p></div></a>
+			<a href="#sign" name="5" onclick="gang3()"><div class="container-detail" id="two3"><p id="three3">敬请期待</p></div></a>
+		</div>
+		<button class="next-button"><a href="#sign-1">继续探索</a></button>
+	</div>
+	<script type="text/javascript">
+		function gang(){
+			var obj=document.getElementById("one");
+			obj.style.backgroundImage="url('5g.jpg')";
+			var a=document.getElementById("two");
+			a.style.backgroundColor="white";
+			var b=document.getElementById("three");
+			b.style.color="#1E90FF";
+
+			var a1=document.getElementById("two1");
+			a1.style.backgroundColor="black";
+			var b1=document.getElementById("three1");
+			b1.style.color="white";
+
+			var a2=document.getElementById("two2");
+			a2.style.backgroundColor="black";
+			var b2=document.getElementById("three2");
+			b2.style.color="white";
+
+			var a3=document.getElementById("two3");
+			a3.style.backgroundColor="black";
+			var b3=document.getElementById("three3");
+			b3.style.color="white";
+		}
+		function gang1(){
+			var obj=document.getElementById("one");
+			obj.style.backgroundImage="url('human.jpg')";
+			var a=document.getElementById("two1");
+			a.style.backgroundColor="white";
+			var b=document.getElementById("three1");
+			b.style.color="#1E90FF";
+
+			var a1=document.getElementById("two");
+			a1.style.backgroundColor="black";
+			var b1=document.getElementById("three");
+			b1.style.color="white";
+			var a2=document.getElementById("two2");
+			a2.style.backgroundColor="black";
+			var b2=document.getElementById("three2");
+			b2.style.color="white";
+			var a3=document.getElementById("two3");
+			a3.style.backgroundColor="black";
+			var b3=document.getElementById("three3");
+			b3.style.color="white";
+		}
+		function gang2(){
+			var obj=document.getElementById("one");
+			obj.style.backgroundImage="url('fly.jpg')";
+			var a=document.getElementById("two2");
+			a.style.backgroundColor="white";
+			var b=document.getElementById("three2");
+			b.style.color="#1E90FF";
+
+			var a1=document.getElementById("two1");
+			a1.style.backgroundColor="black";
+			var b1=document.getElementById("three1");
+			b1.style.color="white";
+			var a2=document.getElementById("two");
+			a2.style.backgroundColor="black";
+			var b2=document.getElementById("three");
+			b2.style.color="white";
+			var a3=document.getElementById("two3");
+			a3.style.backgroundColor="black";
+			var b3=document.getElementById("three3");
+			b3.style.color="white";
+		}
+		function gang3(){
+			var obj=document.getElementById("one");
+			obj.style.backgroundImage="url('xing.jpg')";
+			var a=document.getElementById("two3");
+			a.style.backgroundColor="white";
+			var b=document.getElementById("three3");
+			b.style.color="#1E90FF";
+			var a1=document.getElementById("two1");
+			a1.style.backgroundColor="black";
+			var b1=document.getElementById("three1");
+			b1.style.color="white";
+			var a2=document.getElementById("two2");
+			a2.style.backgroundColor="black";
+			var b2=document.getElementById("three2");
+			b2.style.color="white";
+			var a3=document.getElementById("two");
+			a3.style.backgroundColor="black";
+			var b3=document.getElementById("three");
+			b3.style.color="white";
+		}
+	</script>
+	<div class="box-3"><a href="#" name="sign-1"></a>
+		<div class="mini-box">
+			<img src="5G.png">
+			<a href="#">5G技术</a>
+		</div>
+		<div class="mini-box">
+			<img src="ai.png">
+			<a href="#">Ai技术</a>
+		</div>
+		<div class="mini-box">
+			<img src="无人机.png">
+			<a href="#">无人机技术</a>
+		</div>
+		<div class="mini-box">
+			<img src="wait.png">
+			<a href="#">敬请期待</a>
+		</div>
+		<div class="mini-box">
+			<img src="wait.png">
+			<a href="#">敬请期待</a>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,282 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+#u:hover{
+	border-bottom: 2px solid white;
+	padding-bottom: 8px;
+}
+.box{
+	background-image: url(gang.jpg);
+	width: 1920px;
+	height: 950px;
+	animation: gang 20s linear 1s infinite normal;
+	background-size: 1920px 1080px;
+	background-repeat: no-repeat;
+}
+@keyframes gang{
+	0%{background-size: 1920px 1080px;}
+	50%{background-size: 2120px 1180px;}
+	100%{background-size: 1920px 1080px;}
+}
+.topnav{
+	color: white;
+	width: 100%;
+	height: 200px;
+	margin-left: 60%;
+	padding-top: 60px;
+}
+li{
+	list-style: none;
+}
+.topnav-content{
+	float: left;
+	margin-left: 60px;
+	font-size: 20px;
+}
+.topnav a{
+	color: white;
+	text-decoration: none;
+}
+.topnav-content ul{
+	display: none;
+	margin-top: 15px;
+}
+.topnav-content:hover ul{
+	display: block;
+}
+.topnav-content ul li a{
+	font-size: 15px;
+	line-height: 35px;
+}
+.main-detail{
+	width: 880px;
+	height: 200px;
+	position: absolute;
+	left: 500px;
+	top:480px;
+}
+
+.detail-1{
+	width: 200px;
+	height: 200px;
+	border:3px solid #B8B8B8;
+	float: left;
+	border-radius: 300px;
+	background-color: black;
+	opacity: 0.5;
+	margin-left: 10px;
+}
+.detail-1:hover{
+	opacity: 0.7;
+	border:3px solid white;
+}
+.detail-1:hover img{
+	width: 120px;
+	height: 120px;
+	left: 40px;
+	top: 30px;
+}
+.detail-1 img{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 50px;
+	top: 40px;
+}
+.main-button{
+	position: relative;
+	top: 500px;
+	left: 850px;
+	background: transparent;
+	border: 3px solid white;
+	width: 100px;
+	height: 50px;
+	transition: border-radius 2s,border-color 2s,color 20s,transform 2s;
+}
+.main-button a{
+	color: white;
+	text-decoration: none;
+	font-size:20px;
+
+}
+.main-button:hover a{
+	color: black;
+}
+.main-button:hover{
+	border-radius: 25px;
+	border-color: black;
+	transform: rotate(360deg);
+}
+.sidenav{
+	width: 100px;
+	height: 180px;
+	position: fixed;
+	left: 1800px;
+	top: 600px;
+}
+.link{
+	width: 100px;
+	height: 90px;
+	border:1px  white;
+	transition: border 2s, border-radius 3s;
+}
+
+.link img{
+	width: 90%;
+	height: 90%;
+}
+.link-content{
+	position: fixed;
+	width: 150px;
+	height: 150px;
+	left: 1650px;
+	top: 550px;
+}
+.link-content img{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.link:hover .link-content img{
+	display: block;
+}
+.top{
+	width: 100px;
+	height: 90px;
+	border:1px  white;
+	transition: border 2s, border-radius 3s;
+}
+
+.top img{
+	width: 90%;
+	height: 90%;
+}
+
+.box-2{
+	width: 1920px;
+	height: 950px;
+	background-image: url(xing.jpg);
+	background-size: 1920px 1080px;
+	background-repeat: no-repeat;
+	animation: gang3 20s linear 1s infinite normal;
+}
+@keyframes gang3{
+	0%{background-size: 1920px 1080px;}
+	50%{background-size: 2120px 1180px;}
+	100%{background-size: 1920px 1080px;}
+}
+.box-2-content{
+	background:transparent;
+	width: 500px;
+	height: 100px;
+	position: relative;
+	left: 50px;
+	top: 100px;
+	color: white;
+	font-size: 100px;
+}
+.container{
+	width: 520px;
+	height: 300px;
+	position: relative;
+	top: 200px;
+	left: 40px;
+	background: transparent;
+}
+.container-detail{
+	width: 240px;
+	height: 140px;
+	background-color:black;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	opacity: 0.5;
+	border:4px solid white;
+	animation: gang2 10s linear 1s infinite normal;
+}
+@keyframes gang2{
+	25%{border-top: 4px solid black;}
+	50%{border-right: 4px solid black;}
+	75%{border-bottom: 4px solid black;}
+	100%{border-left: 4px solid black;}
+
+}
+.container-detail p{
+	color: white;
+	text-decoration: none;
+	position: relative;
+	top: 55px;
+	left: 100px;
+	font-size: 25px;
+}
+.container-detail:hover{
+	background-color: white;
+	border: 4px solid black;
+}
+.container-detail:hover p{
+	color: 	#1E90FF;
+}
+.next-button{
+	background: transparent;
+	border: 3px solid white;
+	width: 100px;
+	height: 50px;
+	position: relative;
+	top: 420px;
+	left: 350px;
+	font-size: 18px;
+	transition:border-radius 2s;
+}
+.next-button:hover{
+	border-radius: 25px;
+}
+.next-button a{
+	color: white;
+	text-decoration: none;
+}
+
+.box-3{
+	width: 1920px;
+	height: 950px;
+	background-image: url(lou.jpg);
+	background-repeat: no-repeat;
+	animation: lou 20s linear 1s infinite normal;
+	background-size: 1920px 1080px;
+}
+@keyframes lou{
+	0%{background-size: 1920px 1080px;}
+	50%{background-size: 2200px 1260px;}
+	100%{background-size: 1920px 1080px;}
+}
+.mini-box{
+	width: 380px;
+	height: 950px;
+	float: left;
+	border-right: 1px solid white;
+	background-color: black;
+	opacity: 0.6;
+}
+.mini-box:hover{
+	opacity: 1;
+	background:transparent;
+}
+.mini-box img{
+	position: relative;
+	top: 350px;
+	left: 100px;
+}
+.mini-box a{
+	color:white;
+	position: relative;
+	top: 400px;
+	left: -60px; 
+	font-size: 30px;
+	text-decoration: none;
+}
